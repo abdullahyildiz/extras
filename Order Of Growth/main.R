@@ -1,0 +1,12 @@
+n = c(10^3, 10^4, 10^5, 10^6)
+
+par(mfrow=c(3,3))
+plot(n, n,        type = 'l', main="f(n) = n")
+plot(n, n^(1/2),  type = 'l', main="f(n) = n^(1/2)")
+plot(n, n^(1/3),  type = 'l', main="f(n) = n^(1/3)")
+plot(n, log2(n),  type = 'l', main="f(n) = log2(n)")
+plot(n, log(n),   type = 'l', main="f(n) = ln(n)")
+plot(n, log10(n), type = 'l', main="f(n) = log10(n)")
+plot(n, (log2(n)^2),  type = 'l', main="f(n) = (log2(n)^2)")
+plot(n, (log(n)^2),   type = 'l', main="f(n) = (ln(n)^2)")
+plot(n, (log10(n)^2), type = 'l', main="f(n) = (log10(n)^2)")

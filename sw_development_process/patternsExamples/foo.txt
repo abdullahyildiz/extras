@@ -1,0 +1,4 @@
+This is just a test to assess how well this
+program performs when used on files of text.
+Since it checks for palindromes, we will also
+insert one such word: level

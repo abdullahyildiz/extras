@@ -1,0 +1,1 @@
+/root/abdullah/cmake/ex1/CMakeFiles/hello.dir

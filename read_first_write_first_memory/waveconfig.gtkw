@@ -1,0 +1,33 @@
+[*]
+[*] GTKWave Analyzer v3.3.93 (w)1999-2018 BSI
+[*] Thu Feb  7 09:59:51 2019
+[*]
+[dumpfile] "/Users/abdullah/Downloads/memory_read_first_write_first/dump.vcd"
+[dumpfile_mtime] "Thu Feb  7 09:57:50 2019"
+[dumpfile_size] 5072
+[savefile] "/Users/abdullah/Downloads/memory_read_first_write_first/waveconfig.gtkw"
+[timestart] 0
+[size] 1920 1035
+[pos] -1 -1
+*-4.927345 110 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[sst_width] 193
+[signals_width] 422
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+tb.tb_clock
+tb.tb_we
+@23
+tb.tb_din[7:0]
+@22
+tb.tb_addr_a[3:0]
+tb.tb_addr_b[3:0]
+@200
+-
+@22
+tb.tb_dout_read_first[7:0]
+tb.tb_dout_write_first[7:0]
+tb.tb_dout_another_write_first[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

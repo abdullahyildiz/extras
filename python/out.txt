@@ -1,0 +1,74 @@
+Array to be sorted:  [13, 19, 9, 5, 12, 8, 7, 4, 11, 2, 6, 21]
+================================================================
+STEP:  1
+run quicksort in the range ( 0 , 11 )
+Before partitioning:  [13, 19, 9, 5, 12, 8, 7, 4, 11, 2, 6, 21]
+Pivot selected:  13
+After partitioning:  [6, 2, 9, 5, 12, 8, 7, 4, 11, 13, 21, 19]
+pivot is placed at location  9
+================================================================
+STEP:  2
+run quicksort in the range ( 0 , 8 )
+Before partitioning:  [6, 2, 9, 5, 12, 8, 7, 4, 11, 13, 21, 19]
+Pivot selected:  11
+After partitioning:  [6, 2, 9, 5, 4, 8, 7, 11, 12, 13, 21, 19]
+pivot is placed at location  7
+================================================================
+STEP:  3
+run quicksort in the range ( 0 , 6 )
+Before partitioning:  [6, 2, 9, 5, 4, 8, 7, 11, 12, 13, 21, 19]
+Pivot selected:  6
+After partitioning:  [4, 2, 5, 6, 7, 8, 9, 11, 12, 13, 21, 19]
+pivot is placed at location  3
+================================================================
+STEP:  4
+run quicksort in the range ( 0 , 2 )
+Before partitioning:  [4, 2, 5, 6, 7, 8, 9, 11, 12, 13, 21, 19]
+Pivot selected:  4
+After partitioning:  [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 21, 19]
+pivot is placed at location  1
+================================================================
+STEP:  5
+run quicksort in the range ( 0 , 0 )
+return doing anything [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 21, 19]
+================================================================
+STEP:  6
+run quicksort in the range ( 2 , 2 )
+return doing anything [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 21, 19]
+================================================================
+STEP:  7
+run quicksort in the range ( 4 , 6 )
+Before partitioning:  [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 21, 19]
+Pivot selected:  8
+After partitioning:  [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 21, 19]
+pivot is placed at location  5
+================================================================
+STEP:  8
+run quicksort in the range ( 4 , 4 )
+return doing anything [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 21, 19]
+================================================================
+STEP:  9
+run quicksort in the range ( 6 , 6 )
+return doing anything [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 21, 19]
+================================================================
+STEP:  10
+run quicksort in the range ( 8 , 8 )
+return doing anything [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 21, 19]
+================================================================
+STEP:  11
+run quicksort in the range ( 10 , 11 )
+Before partitioning:  [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 21, 19]
+Pivot selected:  21
+After partitioning:  [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 19, 21]
+pivot is placed at location  11
+================================================================
+STEP:  12
+run quicksort in the range ( 10 , 10 )
+return doing anything [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 19, 21]
+================================================================
+STEP:  13
+run quicksort in the range ( 12 , 11 )
+return doing anything [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 19, 21]
+================================================================
+ALGORITHM HAS FINISHED. 
+Array is now sorted:  [2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 19, 21]

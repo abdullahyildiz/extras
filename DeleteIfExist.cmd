@@ -1,0 +1,19 @@
+@ECHO OFF
+
+@REM File to be deleted
+SET FileToDelete="C:\Users\B402\Desktop\STUDENT"
+ 
+IF EXIST %FileToDelete% (
+
+	RD /s /q %FileToDelete%
+	ECHO FILE/DIRECTORY DELETED
+	MD %FileToDelete%
+	ECHO FILE/DIRECTORY CREATED
+
+) ELSE (
+
+	ECHO FILE/DIRECTORY DOES NOT EXIST
+	MD %FileToDelete%
+	ECHO FILE/DIRECTORY CREATED
+
+)
